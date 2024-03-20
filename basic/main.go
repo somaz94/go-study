@@ -11,5 +11,7 @@ func main() {
 	// bitwise()
 	// hardbitwise()
 	// assignment()
-	pointer()
+	// pointer()
+	// iffunction()
+	hardiffunction()
 }
