@@ -5,5 +5,11 @@ func main() {
 	// helloWorld()
 	// printConstantsAndVariables()
 	// literal()
-	arithmetic()
+	// arithmetic()
+	// relational()
+	// logical()
+	// bitwise()
+	// hardbitwise()
+	// assignment()
+	pointer()
 }
