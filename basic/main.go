@@ -13,5 +13,6 @@ func main() {
 	// assignment()
 	// pointer()
 	// iffunction()
-	hardiffunction()
+	// hardiffunction()
+	switchs()
 }
