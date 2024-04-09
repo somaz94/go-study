@@ -14,5 +14,12 @@ func main() {
 	// pointer()
 	// iffunction()
 	// hardiffunction()
-	switchs()
+	// switchs()
+	// fors()
+	// functions()
+	// anonymous_functions()
+	// closures()
+	// arrays()
+	// slices()
+	maps()
 }
