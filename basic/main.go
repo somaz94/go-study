@@ -21,5 +21,7 @@ func main() {
 	// closures()
 	// arrays()
 	// slices()
-	maps()
+	// maps()
+	// music_app()
+	external_modules()
 }
