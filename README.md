@@ -9,4 +9,4 @@ go run main.go hardif.go
 ```
 
 ## reference
-- [go](http://golang.site/)
+- [go](http://golang.site/go/basics)

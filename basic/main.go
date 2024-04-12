@@ -23,5 +23,8 @@ func main() {
 	// slices()
 	// maps()
 	// music_app()
-	external_modules()
+	// external_modules()
+	// structs()
+	// methods()
+	interfaces()
 }
