@@ -26,5 +26,8 @@ func main() {
 	// external_modules()
 	// structs()
 	// methods()
-	interfaces()
+	// interfaces()
+	// errors()
+	// defer_panic_recover()
+	goroutines()
 }
