@@ -1,0 +1,59 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+testbin/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+*.cov
+
+# Go workspace file
+go.work
+
+# Dependency directories
+vendor/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Kubernetes Generated files
+*generated.go
+*generated.yaml
+*generated.json
+config/crd/bases/
+config/rbac/role.yaml
+
+# Log files
+*.log
+
+# Environment files
+.env
+*.env.local
+
+# Debug files
+debug.test
+__debug_bin
+
+# Build output
+build/
+dist/
