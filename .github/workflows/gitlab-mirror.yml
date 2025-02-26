@@ -23,6 +23,25 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
 
+      - name: Create Wiki Directory
+        run: mkdir -p wiki
+        
+      - name: Checkout Wiki Repository
+        run: |
+          git clone https://github.com/somaz94/go-study.wiki.git temp_wiki
+          
+      - name: Copy Wiki Content
+        run: |
+          cp temp_wiki/*.md wiki/
+          rm -rf temp_wiki
+          
+      - name: Check for Changes
+        id: git-check
+        run: |
+          git add wiki/
+          git status --porcelain
+          echo "changes=$(git status --porcelain | wc -l)" >> $GITHUB_OUTPUT
+
       - name: Push to GitLab Mirror
         env:
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
