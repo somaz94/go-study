@@ -34,7 +34,7 @@ jobs:
           
       - name: Copy Wiki Content
         run: |
-          cp temp_wiki/*.md wiki/
+          cp -r temp_wiki/* wiki/
           rm -rf temp_wiki
           
       - name: Check for Changes
