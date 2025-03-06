@@ -1,0 +1,53 @@
+name: Update README from Wiki
+
+on:
+  workflow_dispatch:  # 수동 실행 가능
+  gollum:  # Wiki가 업데이트될 때
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 저장소 컨텐츠 쓰기 권한 추가
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}  # GitHub 토큰 추가
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+      - name: Clone Wiki and Check Home.md
+        id: check-wiki
+        run: |
+          # Wiki 저장소 클론
+          git clone https://github.com/somaz94/go-study.wiki.git temp_wiki
+          
+          # Home.md가 변경되었는지 확인
+          if [ -f "README.md" ] && diff -q temp_wiki/Home.md README.md > /dev/null; then
+            echo "No changes in Home.md"
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "Home.md has changed"
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Update README if Home.md Changed
+        if: steps.check-wiki.outputs.changed == 'true'
+        run: |
+          # Home.md를 README.md로 복사
+          cp temp_wiki/Home.md README.md
+          
+          # 변경사항 커밋 및 푸시
+          git add README.md
+          git commit -m "docs: Update README from Wiki Home.md" -a
+          git push origin HEAD:main
+          
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -rf temp_wiki
