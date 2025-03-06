@@ -1,6 +1,9 @@
 # Go Study
 
 Welcome to the Go Study Wiki. This Wiki serves as a central repository for technical documentation in both Korean and English.
+
+<br/>
+
 [![Go Wiki](https://img.shields.io/badge/Go%20Wiki-%23007EC6?style=for-the-badge&logo=go&logoColor=white)](https://github.com/somaz94/go-study/wiki)
 
 <br/>
