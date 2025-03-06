@@ -74,6 +74,21 @@ Welcome to the Go Study Wiki. This Wiki serves as a central repository for techn
 - [KR_Performance_Optimization](https://github.com/somaz94/go-study/wiki/KR_Performance_Optimization) - 성능 최적화
 - [KR_Security_Best_Practices](https://github.com/somaz94/go-study/wiki/KR_Security_Best_Practices) - 보안 모범 사례
 
+#### 5. 데이터 과학
+- [KR_DataProcessing](https://github.com/somaz94/go-study/wiki/KR_DataProcessing) - 데이터 처리
+- [KR_Statistics](https://github.com/somaz94/go-study/wiki/KR_Statistics) - 통계 분석
+- [KR_MachineLearning](https://github.com/somaz94/go-study/wiki/KR_MachineLearning) - 머신러닝
+- [KR_DataVisualization](https://github.com/somaz94/go-study/wiki/KR_DataVisualization) - 데이터 시각화
+
+#### 6. 메시지 & 캐시
+- [KR_RabbitMQ](https://github.com/somaz94/go-study/wiki/KR_RabbitMQ) - RabbitMQ
+- [KR_Kafka](https://github.com/somaz94/go-study/wiki/KR_Kafka) - Kafka
+- [KR_NATS](https://github.com/somaz94/go-study/wiki/KR_NATS) - NATS
+- [KR_Redis](https://github.com/somaz94/go-study/wiki/KR_Redis) - Redis
+- [KR_Memcached](https://github.com/somaz94/go-study/wiki/KR_Memcached) - Memcached
+- [KR_Etcd](https://github.com/somaz94/go-study/wiki/KR_Etcd) - etcd
+
+
 <br/>
 
 ## English Version (영어 버전)
