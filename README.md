@@ -26,6 +26,7 @@ Welcome to the Go Study Wiki. This Wiki serves as a central repository for techn
 - [KR_Pointer](https://github.com/somaz94/go-study/wiki/KR_Pointer) - 포인터
 - [KR_Array](https://github.com/somaz94/go-study/wiki/KR_Array) - 배열
 - [KR_Slice](https://github.com/somaz94/go-study/wiki/KR_Slice) - 슬라이스
+- [KR_Array_Slice_Indexing](https://github.com/somaz94/go-study/wiki/KR_Array_Slice_Indexing) - 배열, 슬라이스, 인덱싱
 - [KR_Map](https://github.com/somaz94/go-study/wiki/KR_Map) - 맵
 
 #### 4. 객체지향과 에러처리
