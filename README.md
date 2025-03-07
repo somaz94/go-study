@@ -33,8 +33,8 @@ Welcome to the Go Study Wiki. This Wiki serves as a central repository for techn
 - [KR_Struct](https://github.com/somaz94/go-study/wiki/KR_Struct) - 구조체
 - [KR_Method](https://github.com/somaz94/go-study/wiki/KR_Method) - 메서드
 - [KR_Interface](https://github.com/somaz94/go-study/wiki/KR_Interface) - 인터페이스
-- [KR_Error](https://github.com/somaz94/go-study/wiki/KR_Error) - 에러 처리
 - [KR_DeferPanic](https://github.com/somaz94/go-study/wiki/KR_DeferPanic) - defer와 panic
+- [KR_Error](https://github.com/somaz94/go-study/wiki/KR_Error) - 에러 처리
 
 #### 5. 동시성 프로그래밍
 - [KR_Package](https://github.com/somaz94/go-study/wiki/KR_Package) - 패키지
